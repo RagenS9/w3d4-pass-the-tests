@@ -2,6 +2,12 @@
 # yarn lockfile v1
 
 
+"avow@https://github.com/tiyindyfee/avow":
+  version "1.0.1"
+  resolved "https://github.com/tiyindyfee/avow#309683ae8a9840f09ebf5cb861312a1a19ae63ad"
+  dependencies:
+    avow "https://github.com/tiyindyfee/avow"
+
 moment@^2.17.1:
   version "2.17.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.17.1.tgz#fed9506063f36b10f066c8b59a144d7faebe1d82"

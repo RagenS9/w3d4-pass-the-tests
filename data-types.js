@@ -160,7 +160,7 @@ console.log(isCorrectPhoneNumber);
 //     console.log(isCorrectPhoneNumber);
 
 //     if (!isCorrectPhoneNumber) {
-//         document.getElementById('errorMessages').innerHTML = 'You ahve something wrong with your phone number.';
+//         document.getElementById('errorMessages').innerHTML = 'You have something wrong with your phone number.';
 //     }
 // })
 // the !isCorrectPhoneNumber means it is NOT the correct one, and that's when you get the error message.
@@ -201,8 +201,10 @@ console.log(moment().format('dddd'));
 // arrays
 var listOfThings = ['Cheese', 'Pepperoni', 'Crust', 'Sauce']
 console.log(listOfThings[0]);
+// this one gives us the first one, because it is in position 0.
 
 console.log(listOfThings.length);
+// this gives us the length of the array.
 
 console.log(listOfThings.reverse());
 // this flips the order. this is commonly used on ecommerce sites where the user wants to sort it from lower to higher cost or new versus old things.
@@ -235,11 +237,3 @@ var anObject = {
 console.log(JSON.stringify(anObject));
 
 // all of JS and Ruby are based on objects.
-
-
-
-
-
-
-
-

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "avow": "https://github.com/tiyindyfee/avow",
     "moment": "^2.17.1"
   }
 }
