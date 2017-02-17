@@ -3,11 +3,15 @@ var moment = require('moment');
 
 // Booleans
 function isTrue(value) {
-    return value;
+    if (true === value) {
+        return true;
+    }
+    else {
+        return false;
+    }
 }
 
 avow('isTrue returns true', isTrue(1 + 1 === 2) === true);
-// were we supposed to do something for this first one?? It already comes back as passed. . .
 
 // Null & Undefined
 function isNull(value) {
@@ -130,10 +134,11 @@ avow('isDivisibleByThree returns true if number is divisible by 3', isDivisibleB
 // console.log(isDivisibleByThree(9));
 
 function makeRandomNumber(rando) {
-    return rando = Math.random() * 10;
+    return rando = Math.random() * rando;
 }
 
 avow('makeRandomNumber returns a random number between 0 and 10', makeRandomNumber(10) >= 0 && makeRandomNumber(10) <= 10);
+// console.log(makeRandomNumber(10));
 
 function roundNumber(roundy) {
     return Math.ceil(roundy);
