@@ -134,7 +134,7 @@ avow('isDivisibleByThree returns true if number is divisible by 3', isDivisibleB
 // console.log(isDivisibleByThree(9));
 
 function makeRandomNumber(rando) {
-    return rando = Math.random() * rando;
+    return Math.random() * rando;
 }
 
 avow('makeRandomNumber returns a random number between 0 and 10', makeRandomNumber(10) >= 0 && makeRandomNumber(10) <= 10);
